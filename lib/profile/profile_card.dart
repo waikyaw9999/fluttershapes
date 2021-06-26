@@ -55,7 +55,7 @@ class ProfileCard extends StatelessWidget {
       children: <Widget>[
         CustomPaint(
           size: Size.infinite,
-          painter: ProfileCardPainter(color: profileColor),
+          painter: ProfileCardPainter(color: profileColor, avatarRadius: avatarRadius),
         ),
         Positioned(
           left: 0,
